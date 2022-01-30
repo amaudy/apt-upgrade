@@ -1,0 +1,6 @@
+---
+# tasks file for amaudy.aptupgrade
+- name: Update all packages to their latest version
+  apt:
+    name: "*"
+    state: latest
